@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Product - My Store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">My Store</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/product-image.jpg" alt="Product Image" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h1>Product Name</h1>
+          <p class="text-muted">Category > Subcategory</p>
+          <p class="lead">$99.99</p>
+          <p>Description of the product goes here.</p>
+          <div class="form-group">
+            <label for="quantity">Quantity</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" type="button" onclick="decreaseQuantity()">-</button>
+              </div>
+              <input type="number" class="form-control" id="quantity" value="1" min="1">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" onclick="increaseQuantity()">+</button>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary" onclick="addToCart()">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

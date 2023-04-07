@@ -1,0 +1,168 @@
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f0f0f0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+  padding: 0;
+}
+
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+}
+
+/* Header Styles */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.cart-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cart-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.cart-icon .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+/* Main Content Styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.card-body .description {
+  flex: 1;
+}
+
+.card-body .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-body .quantity {
+  display: flex;
+  align-items: center;
+}
+
+.card-body .quantity label {
+  margin-right: 10px;
+}
+
+.card-body .quantity button {
+  font-size: 20px;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.card-body .add-to-cart {
+  display: flex;
+  align-items: center;
+}
+
+.card-body .add-to-cart button {
+  margin-left: 10px;
+}
+
+/* Footer Styles */
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #007bff;
+}

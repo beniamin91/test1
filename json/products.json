@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 13",
+      "price": 1099,
+      "description": "The latest iPhone with A15 Bionic chip and Ceramic Shield",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro",
+      "price": 1799,
+      "description": "Powerful laptop with Apple M1 chip and Retina display",
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "name": "iPad Pro",
+      "price": 799,
+      "description": "The most advanced iPad with A14 Bionic chip and Liquid Retina XDR display",
+      "category_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Surface Laptop 4",
+      "price": 999,
+      "description": "Slim and stylish laptop with 11th Gen Intel Core processors and up to 19 hours of battery life",
+      "category_id": 2
+    }
+  ]
+}

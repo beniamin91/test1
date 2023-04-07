@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Магазин</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">Корзина</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Корзина</h1>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                iPhone 13
+                <span class="badge badge-primary badge-pill">2</span>
+                <span class="badge badge-secondary">$1099.00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                iPad Pro
+                <span class="badge badge-primary badge-pill">1</span>
+                <span class="badge badge-secondary">$799.00</span>
+            </li>
+        </ul>
+        <button class="btn btn-primary mt-3" id="payBtn">Оплатить</button>
+        <a href="products.html" class="btn btn-secondary mt-3">Продолжить покупки</a>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

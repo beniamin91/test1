@@ -1,0 +1,37 @@
+/*!
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
+ * Copyright (c) 2021
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  /* и другие переменные со значениями цветов и размеров */
+}
+
+/* Reset styles */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* Global typography */
+body {
+  font-family: var(--bs-font-sans-serif);
+  font-size: var(--bs-base-font-size);
+  font-weight: var(--bs-font-weight-normal);
+  line-height: var(--bs-line-height-base);
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: var(--bs-gutter-y);
+  font-weight: var(--bs-font-weight-bold);
+  line-height: var(--bs-line-height-base);
+}
+
+/* и другие стили для элементов интерфейса */

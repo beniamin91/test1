@@ -1,0 +1,16 @@
+{
+  "cart": [
+    {
+      "id": 1,
+      "name": "iPhone 13",
+      "price": 1099,
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "name": "iPad Pro",
+      "price": 799,
+      "quantity": 1
+    }
+  ]
+}

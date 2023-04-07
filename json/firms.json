@@ -1,0 +1,20 @@
+{
+  "firms": [
+    {
+      "id": 1,
+      "name": "Apple Inc."
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Corporation"
+    },
+    {
+      "id": 3,
+      "name": "Amazon.com, Inc."
+    },
+    {
+      "id": 4,
+      "name": "Alphabet Inc."
+    }
+  ]
+}
